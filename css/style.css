@@ -1,3 +1,24 @@
 main {
     min-height: calc(100vh - 160px);
   }
+.contanier {
+  display: grid;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, 400px);
+
+}
+.boxInfo {
+  max-width: 350px;
+  border: 2px solid black;
+  overflow-y: scroll;
+}
+.mainImageInfo {
+  height: 150px;
+  display: block;
+}
