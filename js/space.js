@@ -15,9 +15,11 @@ document.getElementById("btnBuscar").addEventListener("click", () => {
           contenedor.innerHTML += `
             <div class="boxInfo">
               <div class"boxImage"><img class="mainImageInfo" src="${imgSrc}" alt="${title}"></div>
-              <p class="titleInfo"><strong>Título:</strong> <span>${title}</span></p>
-              <p class="descriptionInfo"><strong>Descripción:</strong> <span>${description}</span></p>
-            </div>
+                <div class="boxDescription">
+                    <p class="titleInfo">${title}</p>
+                    <p class="descriptionInfo">${description}</p>
+                </div>
+              </div>
           `;
         });
       })
